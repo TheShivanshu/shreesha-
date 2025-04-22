@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 A Special Message For You 💖</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #fff;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #ff0000; }
+            100% { text-shadow: 0 0 20px #ff4d4d; }
+        }
+
+        /* List Styling */
+        ol {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 12px;
+            width: fit-content;
+            margin: auto;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        ol li {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffd1dc;
+            margin-top: 12px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        ul li {
+            font-weight: normal;
+            color: #ffeded;
+        }
+
+        /* Table Styling */
+        table {
+            width: 60%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+            color: #fff;
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid #fff;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        th {
+            background: #ff4d4d;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        tr:nth-child(odd) {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        tr:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transition: 0.3s;
+        }
+
+        /* Heart Animation */
+        .heart {
+            font-size: 50px;
+            animation: heartbeat 1s infinite alternate;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); color: #ff4d4d; }
+            100% { transform: scale(1.2); color: #ff0000; }
+        }
+
+        /* Button */
+        .proposal-btn {
+            background: #ff4d4d;
+            color: white;
+            padding: 15px 25px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+
+        .proposal-btn:hover {
+            background: #d10000;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>💖 My Special List 💖</h1>
+    <ol>
+        <li>SHREESHA (MISHTI) 💕</li>
+        <ul>
+            <li>The most beautiful person ever</li>
+            <li>The reason my heart beats faster 💓</li>
+            <li>The one who makes me smile every day 😊</li>
+        </ul>
+        <li>Me</li>
+        <ul>
+            <li>Just a person who fell for you completely 💘</li>
+        </ul>
+    </ol>
+
+    <h1>🌹 Reasons Why I Like You 🌹</h1>
+    <table>
+        <tr>
+            <th>Reason</th>
+            <th>How I Feel</th>
+        </tr>
+        <tr>
+            <td>Your Smile 😊</td>
+            <td>It makes my day brighter ✨</td>
+        </tr>
+        <tr>
+            <td>Your Kindness 💖</td>
+            <td>It melts my heart every time</td>
+        </tr>
+        <tr>
+            <td>Your Eyes 👀</td>
+            <td>They shine like stars 🌟</td>
+        </tr>
+        <tr>
+            <td>Your Presence 🥰</td>
+            <td>It's all I ever want 💕</td>
+        </tr>
+    </table>
+
+    <h1 class="heart">❤️</h1>
+
+    <button class="proposal-btn" onclick="showLoveMessage()">Will You Be Mine? 💘</button>
+
+    <script>
+        function showLoveMessage() {
+            alert("I really, really like you! ❤️ Will you be my Valentine? 💕");
+        }
+    </script>
+
+</body>
+</html>
+
